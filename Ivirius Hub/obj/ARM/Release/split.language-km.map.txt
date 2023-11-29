@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-km"
+"ResourceDimensions"		"language-km-kh"
+
+[Files]
+"D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\ARM\Release\split.language-km.pri"			"resources.pri"

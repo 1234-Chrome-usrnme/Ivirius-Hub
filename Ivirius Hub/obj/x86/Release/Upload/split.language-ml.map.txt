@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ml"
+"ResourceDimensions"		"language-ml-in"
+
+[Files]
+"D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\x86\Release\Upload\split.language-ml.pri"			"resources.pri"

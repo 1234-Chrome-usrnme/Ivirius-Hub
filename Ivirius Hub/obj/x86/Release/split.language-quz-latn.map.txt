@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-quz-latn"
+"ResourceDimensions"		"language-quz-pe"
+
+[Files]
+"D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\x86\Release\split.language-quz-latn.pri"			"resources.pri"

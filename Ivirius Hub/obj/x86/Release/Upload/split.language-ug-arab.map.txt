@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ug-arab"
+"ResourceDimensions"		"language-ug-cn"
+
+[Files]
+"D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\x86\Release\Upload\split.language-ug-arab.pri"			"resources.pri"

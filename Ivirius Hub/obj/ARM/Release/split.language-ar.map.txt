@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ar"
+"ResourceDimensions"		"language-ar-sa"
+
+[Files]
+"D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\ARM\Release\split.language-ar.pri"			"resources.pri"

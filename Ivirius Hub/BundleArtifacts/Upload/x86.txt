@@ -1,0 +1,2 @@
+MainPackage=D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Release\Upload\Ivirius Hub_1.1.3.0_x86.msix
+SymbolPackage=D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Release\Upload\Ivirius Hub_1.1.3.0\Ivirius Hub_1.1.3.0_x86.appxsym
