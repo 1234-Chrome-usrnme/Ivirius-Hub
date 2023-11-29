@@ -193,7 +193,7 @@
     </Page.Resources>
     <Grid>
         <TextBlock TextWrapping="Wrap" Text="Button" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock TextWrapping="Wrap" Text="Crimson UI styles for Button" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock TextWrapping="Wrap" Text="A basic UI control that handles a 'Click' event when clicked or tapped by the user." Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
 
         <StackPanel Margin="25,115,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Spacing="5" Orientation="Horizontal">
             <Button Background="{x:Null}" BorderBrush="{x:Null}">
