@@ -46,7 +46,9 @@
       <RootProperty Name="Height" />
       <RootProperty Name="MinHeight" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Width" />
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Resources" />
@@ -84,8 +86,11 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FlowDirection" />
-      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="CornerRadius" />
       <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="IsHitTestVisible" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="TextWrapping" />
@@ -393,13 +398,15 @@
     <RootType FullName="Ivirius_Hub.IVREditor" />
     <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel">
       <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Color" />
       <RootProperty Name="ShadowOpacity" />
-      <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Opacity" />
-      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="Content" />
@@ -462,6 +469,7 @@
       <RootProperty Name="Children" />
     </RootType>
     <RootType FullName="Ivirius_Hub.Pages.Ivirius.UI.ChildAppWindowShowcase" />
+    <RootType FullName="Ivirius_Hub.Pages.Main.StorePage" />
     <RootType FullName="Ivirius_Hub.WindowingPage" />
   </Roots.RootTypes>
 </Roots>

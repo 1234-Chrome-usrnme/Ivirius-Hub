@@ -23,6 +23,7 @@ using Microsoft.Toolkit.Uwp.UI.Helpers;
 using Microsoft.UI.Xaml.Controls;
 using Ivirius_Hub.Pages.Ivirius.UI;
 using Ivirius_Hub.Pages.CrimsonUI;
+using Ivirius_Hub.Pages.Main;
 
 namespace Ivirius_Hub
 {
@@ -106,6 +107,15 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(ButtonCUI));
             }
+            if (args.SelectedItem == StoreItem)
+            {
+                frame.Navigate(typeof(StorePage));
+            }
+        }
+
+        public void NavigateToStore()
+        {
+            NavView.SelectedItem = StoreItem;
         }
     }
 }

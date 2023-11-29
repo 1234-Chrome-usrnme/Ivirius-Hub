@@ -339,3 +339,8 @@ D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ob
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638017793300000000.json
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_638316298480000000.json
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_637920505780000000.json
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\StorePage.xbf
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.g.i.cs
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.g.cs
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.xaml
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.xbf

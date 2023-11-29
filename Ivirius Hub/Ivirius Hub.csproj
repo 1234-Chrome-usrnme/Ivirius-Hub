@@ -166,6 +166,9 @@
     <Compile Include="Pages\Ivirius.UI\ChildAppWindowShowcase.xaml.cs">
       <DependentUpon>ChildAppWindowShowcase.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Main\StorePage.xaml.cs">
+      <DependentUpon>StorePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WindowingPage.xaml.cs">
       <DependentUpon>WindowingPage.xaml</DependentUpon>
@@ -314,6 +317,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Ivirius.UI\ChildAppWindowShowcase.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Main\StorePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

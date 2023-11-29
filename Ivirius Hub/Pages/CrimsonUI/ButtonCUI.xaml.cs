@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.UI.Helpers;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,20 @@ namespace Ivirius_Hub.Pages.CrimsonUI
         public ButtonCUI()
         {
             this.InitializeComponent();
+            var x = new ThemeListener();
+            if (x.CurrentTheme == ApplicationTheme.Light) ItemsViewer.RequestedTheme = ElementTheme.Light;
+            else ItemsViewer.RequestedTheme = ElementTheme.Dark;
+        }
+
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            ((Window.Current.Content as Frame).Content as MainPage).NavigateToStore();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (ItemsViewer.RequestedTheme == ElementTheme.Dark) ItemsViewer.RequestedTheme = ElementTheme.Light;
+            else ItemsViewer.RequestedTheme = ElementTheme.Dark;
         }
     }
 }
