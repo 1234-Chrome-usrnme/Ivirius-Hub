@@ -1,1 +1,1 @@
-D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Ivirius Hub.csproj;x86
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Ivirius Hub.csproj;x86

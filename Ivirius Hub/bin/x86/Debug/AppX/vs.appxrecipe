@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>464IviriusCompany.45256B36D156E</PackageIdentityName>
     <PackageIdentityPublisher>CN=Desktop Ivirius</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>3CAE5FB61E175BA5B75699AC4DEED1E680778838387B5BD7E606688172EE79B3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>464IviriusCompany.45256B36D156E_1.1.3.0_x86__34rd76tfyvk3e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>464IviriusCompany.45256B36D156E_34rd76tfyvk3e!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.1.3.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-24T23:35:52.499</Modified>
+      <Modified>2023-11-29T18:39:09.325</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Ivirius Hub.exe">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius Hub.exe">
       <PackagePath>entrypoint\Ivirius Hub.exe</PackagePath>
-      <Modified>2023-11-24T23:35:51.562</Modified>
+      <Modified>2023-11-29T18:39:08.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Desktop Ivirius\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -158,447 +158,447 @@
       <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml</PackagePath>
       <Modified>2022-11-01T17:20:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\01 +.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\01 +.png">
       <PackagePath>01 +.png</PackagePath>
-      <Modified>2023-06-22T11:26:02.424</Modified>
+      <Modified>2023-11-29T18:30:47.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\01.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\01.png">
       <PackagePath>01.png</PackagePath>
-      <Modified>2023-06-22T11:24:15.327</Modified>
+      <Modified>2023-11-29T18:30:47.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\AcrylicGlassIcon.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\AcrylicGlassIcon.png">
       <PackagePath>AcrylicGlassIcon.png</PackagePath>
-      <Modified>2023-06-22T11:27:26.490</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\ActionCompleteGlyph.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ActionCompleteGlyph.png">
       <PackagePath>ActionCompleteGlyph.png</PackagePath>
-      <Modified>2022-06-22T17:16:24.649</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\ActionErrorGlyph.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ActionErrorGlyph.png">
       <PackagePath>ActionErrorGlyph.png</PackagePath>
-      <Modified>2022-07-28T14:35:15.466</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\ActionInfoGlyph.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ActionInfoGlyph.png">
       <PackagePath>ActionInfoGlyph.png</PackagePath>
-      <Modified>2022-06-22T17:11:42.294</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\AeroCorner.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\AeroCorner.png">
       <PackagePath>AeroCorner.png</PackagePath>
-      <Modified>2023-05-20T20:57:43.203</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\AeroGlass.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\AeroGlass.png">
       <PackagePath>AeroGlass.png</PackagePath>
-      <Modified>2023-05-20T20:57:43.206</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\AppMainIcon.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\AppMainIcon.png">
       <PackagePath>AppMainIcon.png</PackagePath>
-      <Modified>2022-04-02T16:51:05.923</Modified>
+      <Modified>2023-11-29T18:30:47.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Glyphs\ChildAppWindow.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Glyphs\ChildAppWindow.png">
       <PackagePath>Assets\Glyphs\ChildAppWindow.png</PackagePath>
-      <Modified>2023-11-24T20:37:13.725</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Glyphs\DialogWindow.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Glyphs\DialogWindow.png">
       <PackagePath>Assets\Glyphs\DialogWindow.png</PackagePath>
-      <Modified>2023-11-24T20:37:13.725</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.688</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.838</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.984</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.147</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.375</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:58.486</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:58.627</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:58.752</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:58.909</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.059</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.344</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.497</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.657</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.149</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.203</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.340</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.476</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.785</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.621</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.765</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.197</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.895</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.031</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.920</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.484</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.195</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.327</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.518</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.655</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.786</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.060</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.205</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.340</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.762</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.489</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:02.621</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.285</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.421</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.558</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.698</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:05.845</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.927</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.079</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.218</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.552</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\BackgroundImage.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\BackgroundImage.png">
       <PackagePath>BackgroundImage.png</PackagePath>
-      <Modified>2023-06-22T11:59:40.984</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Bloom Blue Dark.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Bloom Blue Dark.png">
       <PackagePath>Bloom Blue Dark.png</PackagePath>
-      <Modified>2023-05-20T20:03:36.136</Modified>
+      <Modified>2023-11-29T18:30:50.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Bloom Magenta Light.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Bloom Magenta Light.png">
       <PackagePath>Bloom Magenta Light.png</PackagePath>
-      <Modified>2023-05-20T19:57:47.929</Modified>
+      <Modified>2023-11-29T18:30:50.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVREdiorWin.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVREdiorWin.png">
       <PackagePath>IVREdiorWin.png</PackagePath>
-      <Modified>2022-06-09T08:40:14.491</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVREditor new logo.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVREditor new logo.png">
       <PackagePath>IVREditor new logo.png</PackagePath>
-      <Modified>2022-11-20T19:53:51.768</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVREditorNew.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVREditorNew.png">
       <PackagePath>IVREditorNew.png</PackagePath>
-      <Modified>2022-04-14T16:59:48.714</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVREditorOld.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVREditorOld.png">
       <PackagePath>IVREditorOld.png</PackagePath>
-      <Modified>2022-04-14T16:59:32.992</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVRNotesNew.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVRNotesNew.png">
       <PackagePath>IVRNotesNew.png</PackagePath>
-      <Modified>2022-04-19T16:57:26.160</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\IVRNotesOld.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\IVRNotesOld.png">
       <PackagePath>IVRNotesOld.png</PackagePath>
-      <Modified>2022-04-19T16:57:13.866</Modified>
+      <Modified>2023-11-29T18:30:50.562</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\New Company Logo Assembled Front.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\New Company Logo Assembled Front.png">
       <PackagePath>New Company Logo Assembled Front.png</PackagePath>
-      <Modified>2023-07-26T13:49:08.508</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Notes.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Notes.png">
       <PackagePath>Notes.png</PackagePath>
-      <Modified>2022-04-19T17:06:56.080</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\ToolbarIMG.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ToolbarIMG.png">
       <PackagePath>ToolbarIMG.png</PackagePath>
-      <Modified>2023-01-04T21:13:42.915</Modified>
+      <Modified>2023-11-29T18:30:50.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\WorkspaceIMG.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\WorkspaceIMG.png">
       <PackagePath>WorkspaceIMG.png</PackagePath>
-      <Modified>2023-01-04T21:32:20.773</Modified>
+      <Modified>2023-11-29T18:30:50.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\PCpresentation.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\PCpresentation.png">
       <PackagePath>PCpresentation.png</PackagePath>
-      <Modified>2022-07-02T15:40:03.600</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-03-04T18:57:18.983</Modified>
+      <Modified>2023-11-29T18:30:50.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:04.842</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:39:59.628</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:01.921</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:03.056</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-19T18:40:00.366</Modified>
+      <Modified>2023-11-29T18:30:50.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\SBIMG.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\SBIMG.png">
       <PackagePath>SBIMG.png</PackagePath>
-      <Modified>2023-01-04T21:13:42.899</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\TextEditor.png">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\TextEditor.png">
       <PackagePath>TextEditor.png</PackagePath>
-      <Modified>2022-04-06T09:02:27.696</Modified>
+      <Modified>2023-11-29T18:30:50.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\TitleBarIMG.jpg">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\TitleBarIMG.jpg">
       <PackagePath>TitleBarIMG.jpg</PackagePath>
-      <Modified>2023-01-04T21:13:42.913</Modified>
+      <Modified>2023-11-29T18:30:50.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-04-02T16:45:44.595</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\SegoeFluentIcons2.ttf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\SegoeFluentIcons2.ttf">
       <PackagePath>SegoeFluentIcons2.ttf</PackagePath>
-      <Modified>2023-05-29T18:22:35.616</Modified>
+      <Modified>2023-11-29T18:30:50.571</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Ivirius Hub.xr.xml">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius Hub.xr.xml">
       <PackagePath>Ivirius Hub.xr.xml</PackagePath>
-      <Modified>2023-11-24T23:35:51.408</Modified>
+      <Modified>2023-11-29T18:37:59.223</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.453</Modified>
+      <Modified>2023-11-29T18:39:08.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\AboutPage.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AboutPage.xbf">
       <PackagePath>AboutPage.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.453</Modified>
+      <Modified>2023-11-29T18:39:08.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\AcrylicGlass.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AcrylicGlass.xbf">
       <PackagePath>AcrylicGlass.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.416</Modified>
+      <Modified>2023-11-29T18:39:08.264</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\HomePage.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.417</Modified>
+      <Modified>2023-11-29T18:39:08.265</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf">
       <PackagePath>Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.424</Modified>
+      <Modified>2023-11-29T18:39:08.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf">
       <PackagePath>Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.428</Modified>
+      <Modified>2023-11-29T18:39:08.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\IviriusNotes.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusNotes.xbf">
       <PackagePath>IviriusNotes.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.432</Modified>
+      <Modified>2023-11-29T18:39:08.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\IviriusTextEditor.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusTextEditor.xbf">
       <PackagePath>IviriusTextEditor.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.435</Modified>
+      <Modified>2023-11-29T18:39:08.283</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\IviriusTextEditorPlus.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusTextEditorPlus.xbf">
       <PackagePath>IviriusTextEditorPlus.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.437</Modified>
+      <Modified>2023-11-29T18:39:08.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\IVREditor.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IVREditor.xbf">
       <PackagePath>IVREditor.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.454</Modified>
+      <Modified>2023-11-29T18:39:08.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ButtonCUI.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\ButtonCUI.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.442</Modified>
+      <Modified>2023-11-29T18:39:08.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
       <PackagePath>Pages\Main\MainPage.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.452</Modified>
+      <Modified>2023-11-29T18:39:08.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\OfflineWebsite.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\OfflineWebsite.xbf">
       <PackagePath>OfflineWebsite.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.454</Modified>
+      <Modified>2023-11-29T18:39:08.306</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Pages\Ivirius.UI\ChildAppWindowShowcase.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Ivirius.UI\ChildAppWindowShowcase.xbf">
       <PackagePath>Pages\Ivirius.UI\ChildAppWindowShowcase.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.452</Modified>
+      <Modified>2023-11-29T18:39:08.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Themes\Generic.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Themes\Generic.xbf">
       <PackagePath>Themes\Generic.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.453</Modified>
+      <Modified>2023-11-29T18:39:08.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\WindowingPage.xbf">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\WindowingPage.xbf">
       <PackagePath>WindowingPage.xbf</PackagePath>
-      <Modified>2023-11-24T23:35:51.454</Modified>
+      <Modified>2023-11-29T18:39:08.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -612,13 +612,13 @@
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2023-05-05T18:59:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-24T23:08:17.210</Modified>
+      <Modified>2023-11-29T18:38:00.119</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius Hub\Ivirius Hub\bin\x86\Debug\Core\Ivirius Hub.exe">
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Core\Ivirius Hub.exe">
       <PackagePath>Ivirius Hub.exe</PackagePath>
-      <Modified>2023-11-24T23:35:52.496</Modified>
+      <Modified>2023-11-29T18:39:09.315</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -667,57 +667,57 @@
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.31331.1</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.31331.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.31327.1</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.31327.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\Desktop Ivirius\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.14\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

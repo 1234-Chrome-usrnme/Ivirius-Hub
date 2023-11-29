@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius Hub\\Ivirius Hub\\Ivirius Hub.csproj": {}
+    "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius-Hub-Git\\Ivirius Hub\\Ivirius Hub.csproj": {}
   },
   "projects": {
-    "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius Hub\\Ivirius Hub\\Ivirius Hub.csproj": {
+    "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius-Hub-Git\\Ivirius Hub\\Ivirius Hub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius Hub\\Ivirius Hub\\Ivirius Hub.csproj",
+        "projectUniqueName": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius-Hub-Git\\Ivirius Hub\\Ivirius Hub.csproj",
         "projectName": "Ivirius Hub",
-        "projectPath": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius Hub\\Ivirius Hub\\Ivirius Hub.csproj",
+        "projectPath": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius-Hub-Git\\Ivirius Hub\\Ivirius Hub.csproj",
         "packagesPath": "C:\\Users\\Desktop Ivirius\\.nuget\\packages\\",
-        "outputPath": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius Hub\\Ivirius Hub\\obj\\",
+        "outputPath": "D:\\Ivirius Company\\Programări\\Visual Studio\\Apps\\Ivirius-Hub-Git\\Ivirius Hub\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
