@@ -166,7 +166,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-        
+
         <Style x:Key="CrimsonDropDownButton" TargetType="DropDownButton">
             <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
             <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
@@ -292,6 +292,111 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="CrimsonToolbarDropDownButton" TargetType="DropDownButton">
+            <Setter Property="Background" Value="{x:Null}"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
+            <Setter Property="BorderBrush" Value="{x:Null}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="{StaticResource ButtonPadding}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="FocusVisualMargin" Value="-3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DropDownButton">
+                        <Grid x:Name="RootGrid" Background="{TemplateBinding Background}" CornerRadius="4, 4, 4, 4">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="0"/>
+                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.15" To="0">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="ShadowOpacity" EnableDependentAnimation="True" Duration="0:0:0" To="1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundPointerOver}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorSecondaryBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="12"/>
+                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.15" To="0">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="ShadowOpacity" EnableDependentAnimation="True" Duration="0:0:0" To="1"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundPressed}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorTertiaryBrush}" />
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="0.1"/>
+                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.12" To="2"/>
+                                            <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="ShadowOpacity" EnableDependentAnimation="True" Duration="0:0:0" To="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonBackgroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ToolkitControls:DropShadowPanel CornerRadius="2" Margin="2,0,2,2" x:Name="Glow" Color="{ThemeResource SystemAccentColorLight2}" ShadowOpacity="0.93" Grid.Row="0" VerticalAlignment="Bottom"
+                HorizontalAlignment="Center" Height="2">
+                                <Grid x:Name="Pipe"
+                Height="2" Width="0.1" CornerRadius="2"
+                VerticalAlignment="Bottom" 
+                HorizontalAlignment="Center">
+                                    <Grid.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="0.0" />
+                                            <GradientStop Color="{ThemeResource SystemAccentColorLight2}" Offset="0.5" />
+                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="1.0" />
+                                        </LinearGradientBrush>
+                                    </Grid.Background>
+                                </Grid>
+                            </ToolkitControls:DropShadowPanel>
+                            <Grid x:Name="InnerGrid" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="{TemplateBinding CornerRadius}" Padding="{TemplateBinding Padding}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentTransitions="{TemplateBinding ContentTransitions}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                <TextBlock x:Name="ChevronTextBlock" AutomationProperties.AccessibilityView="Raw" Grid.Column="1" FontFamily="{ThemeResource SymbolThemeFontFamily}" FontSize="12" Margin="6,0,0,0" Text="&#xE70D;" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                                    <TextBlock.RenderTransform>
+                                        <CompositeTransform x:Name="ChevronTransform"/>
+                                    </TextBlock.RenderTransform>
+                                </TextBlock>
+                            </Grid>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Page.Resources>
     <Grid>
         <TextBlock TextWrapping="Wrap" Text="Button" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
@@ -310,13 +415,29 @@
                     <StackPanel Spacing="10">
                         <TextBlock TextWrapping="Wrap" Text="Standard buttons"/>
                         <StackPanel Spacing="10" Padding="10,10,10,10" CornerRadius="4,4,4,4" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
-                            <DropDownButton Style="{StaticResource CrimsonDropDownButton}" Content="CrimsonDropDownButton" Width="250" CornerRadius="4,4,4,4"/>
+                            <DropDownButton Style="{StaticResource CrimsonDropDownButton}" Content="CrimsonDropDownButton" Width="250" CornerRadius="4,4,4,4">
+                                <DropDownButton.Flyout>
+                                    <MenuFlyout>
+                                        <MenuFlyoutItem Text="Item 1"/>
+                                        <MenuFlyoutItem Text="Item 2"/>
+                                        <MenuFlyoutItem Text="Item 3"/>
+                                    </MenuFlyout>
+                                </DropDownButton.Flyout>
+                            </DropDownButton>
                         </StackPanel>
                     </StackPanel>
                     <StackPanel Spacing="10">
                         <TextBlock TextWrapping="Wrap" Text="Toolbar buttons"/>
                         <StackPanel Spacing="10" Padding="10,10,10,10" CornerRadius="4,4,4,4" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
-                            <DropDownButton Content="CrimsonToolbarButton" Width="250"/>
+                            <DropDownButton Style="{StaticResource CrimsonToolbarDropDownButton}" Content="CrimsonToolbarDropDownButton" Width="250">
+                                <DropDownButton.Flyout>
+                                    <MenuFlyout>
+                                        <MenuFlyoutItem Text="Item 1"/>
+                                        <MenuFlyoutItem Text="Item 2"/>
+                                        <MenuFlyoutItem Text="Item 3"/>
+                                    </MenuFlyout>
+                                </DropDownButton.Flyout>
+                            </DropDownButton>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>

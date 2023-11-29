@@ -8,323 +8,82 @@
     Custom:BackdropMaterial.ApplyToRootOrPageBackground="True"
     x:Class="Ivirius_Hub.MainPage"
     mc:Ignorable="d">
-    <Page.Resources>
-        <Style x:Key="TextBoxTooltip" TargetType="TextBox">
-            <Setter Property="Foreground" Value="{ThemeResource TextControlForeground}"/>
-            <Setter Property="Background" Value="{ThemeResource TextControlBackground}"/>
-            <Setter Property="BorderBrush" Value="{ThemeResource TextControlBorderBrush}"/>
-            <Setter Property="SelectionHighlightColor" Value="{ThemeResource TextControlSelectionHighlightColor}"/>
-            <Setter Property="BorderThickness" Value="{ThemeResource TextControlBorderThemeThickness}"/>
-            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
-            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
-            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Auto"/>
-            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Auto"/>
-            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden"/>
-            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden"/>
-            <Setter Property="ScrollViewer.IsDeferredScrollingEnabled" Value="False"/>
-            <Setter Property="Padding" Value="{ThemeResource TextControlThemePadding}"/>
-            <Setter Property="UseSystemFocusVisuals" Value="{ThemeResource IsApplicationFocusVisualKindReveal}"/>
-            <Setter Property="ContextFlyout" Value="{StaticResource TextControlCommandBarContextFlyout}"/>
-            <Setter Property="SelectionFlyout" Value="{StaticResource TextControlCommandBarSelectionFlyout}"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="TextBox">
-                        <Grid>
-                            <Grid.Resources>
-                                <Style x:Name="DeleteButtonStyle" TargetType="Button">
-                                    <Setter Property="Template">
-                                        <Setter.Value>
-                                            <ControlTemplate TargetType="Button">
-                                                <Grid x:Name="ButtonLayoutGrid" Background="{ThemeResource TextControlButtonBackground}" BorderBrush="{ThemeResource TextControlButtonBorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
-                                                    <VisualStateManager.VisualStateGroups>
-                                                        <VisualStateGroup x:Name="CommonStates">
-                                                            <VisualState x:Name="Normal"/>
-                                                            <VisualState x:Name="PointerOver">
-                                                                <Storyboard>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="Background">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonBackgroundPointerOver}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="BorderBrush">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonBorderBrushPointerOver}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="GlyphElement" Storyboard.TargetProperty="Foreground">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonForegroundPointerOver}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                </Storyboard>
-                                                            </VisualState>
-                                                            <VisualState x:Name="Pressed">
-                                                                <Storyboard>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="Background">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonBackgroundPressed}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="BorderBrush">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonBorderBrushPressed}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="GlyphElement" Storyboard.TargetProperty="Foreground">
-                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlButtonForegroundPressed}"/>
-                                                                    </ObjectAnimationUsingKeyFrames>
-                                                                </Storyboard>
-                                                            </VisualState>
-                                                            <VisualState x:Name="Disabled">
-                                                                <Storyboard>
-                                                                    <DoubleAnimation Duration="0" Storyboard.TargetName="ButtonLayoutGrid" To="0" Storyboard.TargetProperty="Opacity"/>
-                                                                </Storyboard>
-                                                            </VisualState>
-                                                        </VisualStateGroup>
-                                                    </VisualStateManager.VisualStateGroups>
-                                                    <TextBlock x:Name="GlyphElement" AutomationProperties.AccessibilityView="Raw" Foreground="{ThemeResource TextControlButtonForeground}" FontStyle="Normal" FontFamily="{ThemeResource SymbolThemeFontFamily}" FontSize="12" HorizontalAlignment="Center" Text="&#xE10A;" VerticalAlignment="Center"/>
-                                                </Grid>
-                                            </ControlTemplate>
-                                        </Setter.Value>
-                                    </Setter>
-                                </Style>
-                            </Grid.Resources>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Normal"/>
-                                    <VisualState x:Name="Disabled">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="HeaderContentPresenter" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlHeaderForegroundDisabled}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBackgroundDisabled}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBorderBrushDisabled}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlForegroundDisabled}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundDisabled}}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBorderBrushPointerOver}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBackgroundPointerOver}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundPointerOver}}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlForegroundPointerOver}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Focused">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundFocused}}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBackgroundFocused}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlBorderBrushFocused}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource TextControlForegroundFocused}"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="RequestedTheme">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Light"/>
-                                            </ObjectAnimationUsingKeyFrames>
-                                        </Storyboard>
-                                    </VisualState>
-                                </VisualStateGroup>
-                                <VisualStateGroup x:Name="ButtonStates">
-                                    <VisualState x:Name="ButtonVisible">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DeleteButton" Storyboard.TargetProperty="Visibility">
-                                                <DiscreteObjectKeyFrame KeyTime="0">
-                                                    <DiscreteObjectKeyFrame.Value>
-                                                        <Visibility>Visible</Visibility>
-                                                    </DiscreteObjectKeyFrame.Value>
-                                                </DiscreteObjectKeyFrame>
-                                            </ObjectAnimationUsingKeyFrames>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="ButtonCollapsed"/>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-                            <ContentPresenter x:Name="HeaderContentPresenter" ContentTemplate="{TemplateBinding HeaderTemplate}" Grid.Column="0" Content="{TemplateBinding Header}" Grid.ColumnSpan="2" Foreground="{ThemeResource TextControlHeaderForeground}" FontWeight="Normal" Margin="{ThemeResource TextBoxTopHeaderMargin}" Grid.Row="0" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed" x:DeferLoadStrategy="Lazy"/>
-                            <Border x:Name="BorderElement" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="{TemplateBinding CornerRadius}" Grid.Column="0" Grid.ColumnSpan="2" Control.IsTemplateFocusTarget="True" MinWidth="{ThemeResource TextControlThemeMinWidth}" MinHeight="{ThemeResource TextControlThemeMinHeight}" Grid.RowSpan="1" Grid.Row="1" Padding="0,0,0,0" Margin="0,0,0,10"/>
-                            <ScrollViewer x:Name="ContentElement" AutomationProperties.AccessibilityView="Raw" Grid.Column="0" HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}" IsTabStop="False" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" ZoomMode="Disabled"/>
-                            <TextBlock x:Name="PlaceholderTextContentPresenter" Grid.Column="0" Grid.ColumnSpan="2" Foreground="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForeground}}" IsHitTestVisible="False" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1" TextAlignment="{TemplateBinding TextAlignment}" TextWrapping="{TemplateBinding TextWrapping}" Text="{TemplateBinding PlaceholderText}"/>
-                            <Button x:Name="DeleteButton" AutomationProperties.AccessibilityView="Raw" BorderThickness="{TemplateBinding BorderThickness}" Grid.Column="1" FontSize="{TemplateBinding FontSize}" IsTabStop="False" Margin="{ThemeResource HelperButtonThemePadding}" MinWidth="34" Grid.Row="1" Style="{StaticResource DeleteButtonStyle}" VerticalAlignment="Stretch" Visibility="Collapsed"/>
-                            <ContentPresenter x:Name="DescriptionPresenter" AutomationProperties.AccessibilityView="Raw" Grid.Column="0" Content="{TemplateBinding Description}" Grid.ColumnSpan="2" Foreground="{ThemeResource SystemControlDescriptionTextForegroundBrush}" Grid.Row="2" x:Load="False"/>
-                            <Border x:Name="BorderElementHint" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" Grid.Column="0" Control.IsTemplateFocusTarget="True" Grid.RowSpan="1" Grid.Row="1" Padding="0,0,0,0" Margin="0,0,7,7" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="10" Height="10" RenderTransformOrigin="0.5,0.5">
-                                <Border.RenderTransform>
-                                    <CompositeTransform Rotation="45.076"/>
-                                </Border.RenderTransform>
-                            </Border>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="BaseTextBlockStyle" TargetType="TextBlock">
-            <Setter Property="FontFamily" Value="XamlAutoFontFamily"/>
-            <Setter Property="FontWeight" Value="SemiBold"/>
-            <Setter Property="FontSize" Value="14"/>
-            <Setter Property="TextTrimming" Value="None"/>
-            <Setter Property="TextWrapping" Value="Wrap"/>
-            <Setter Property="LineStackingStrategy" Value="MaxHeight"/>
-            <Setter Property="TextLineBounds" Value="Full"/>
-        </Style>
-        <Style x:Key="CaptionTextBlockStyle" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="12"/>
-            <Setter Property="FontWeight" Value="Normal"/>
-        </Style>
-        <Style x:Key="RatingControlStyle1" TargetType="RatingControl">
-            <Setter Property="Height" Value="32"/>
-            <Setter Property="Foreground" Value="{ThemeResource RatingControlCaptionForeground}"/>
-            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
-            <Setter Property="FontFamily" Value="Segoe MDL2 Assets"/>
-            <Setter Property="ItemInfo" Value="{ThemeResource RatingControlDefaultFontInfo}"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="RatingControl">
-                        <Grid x:Name="LayoutRoot">
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Disabled">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlDisabledSelectedForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                    <VisualState x:Name="Placeholder">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlPlaceholderForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOverPlaceholder">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlPointerOverPlaceholderForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOverUnselected">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlPointerOverUnselectedForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                    <VisualState x:Name="Set">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlSelectedForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOverSet">
-                                        <VisualState.Setters>
-                                            <Setter Target="ForegroundContentPresenter.Foreground" Value="{ThemeResource RatingControlSelectedForeground}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-                            <StackPanel Margin="-20,-20,-20,-20" Orientation="Horizontal" Grid.Row="0">
-                                <StackPanel x:Name="RatingBackgroundStackPanel" Background="Transparent" Margin="20,20,0,20" Orientation="Horizontal"/>
-                                <TextBlock x:Name="Caption" AutomationProperties.AccessibilityView="Raw" Height="32" IsHitTestVisible="False" Margin="4,9,20,0" AutomationProperties.Name="RatingCaption" Style="{ThemeResource CaptionTextBlockStyle}" Text="{TemplateBinding Caption}" TextLineBounds="TrimToBaseline" VerticalAlignment="Center" SelectionHighlightColor="#FFFFAF00"/>
-                            </StackPanel>
-                            <ContentPresenter x:Name="ForegroundContentPresenter" IsHitTestVisible="False" Grid.Row="0">
-                                <StackPanel Margin="-40,-40,-40,-40" Orientation="Horizontal">
-                                    <StackPanel x:Name="RatingForegroundStackPanel" IsHitTestVisible="False" Margin="40,40,40,40" Orientation="Horizontal"/>
-                                </StackPanel>
-                            </ContentPresenter>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </Page.Resources>
-    <Grid x:ConnectionId='41' x:Name="FullPage">
+    <Grid x:ConnectionId='2' x:Name="FullPage">
         <Image Source="/New Company Logo Assembled Front.png" HorizontalAlignment="Left" VerticalAlignment="Top" Width="18" Height="18" Margin="13,13,0,0"/>
         <TextBlock TextWrapping="Wrap" Text="Ivirius Hub" Margin="45,14,0,0" FontSize="12"/>
-        <Custom:NavigationView x:ConnectionId='42' x:Name="NavView" IsSettingsVisible="False" PaneTitle="Menu"                                                    IsTitleBarAutoPaddingEnabled="False" Margin="0,35,0,0">
+        <Custom:NavigationView x:ConnectionId='3' x:Name="NavView" IsSettingsVisible="False" PaneTitle="Menu"                                                    IsTitleBarAutoPaddingEnabled="False" Margin="0,35,0,0">
             <Custom:NavigationView.MenuItems>
-                <Custom:NavigationViewItem x:ConnectionId='43' x:Name="HomeItem" Content="Home">
+                <Custom:NavigationViewItem x:ConnectionId='4' x:Name="HomeItem" Content="Home">
                     <Custom:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Home"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='44' x:Name="IVRItem" Content="Ivirius Text Editor">
+                <Custom:NavigationViewItem x:ConnectionId='5' x:Name="IVRItem" Content="Ivirius Text Editor">
                     <Custom:NavigationViewItem.Icon>
                         <BitmapIcon UriSource="/01.png" ShowAsMonochrome="False"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='45' x:Name="IVRPlusItem" Content="Ivirius Text Editor Plus">
+                <Custom:NavigationViewItem x:ConnectionId='6' x:Name="IVRPlusItem" Content="Ivirius Text Editor Plus">
                     <Custom:NavigationViewItem.Icon>
                         <BitmapIcon UriSource="/01 +.png" ShowAsMonochrome="False"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='46' x:Name="IVRUIItem" Content="Ivirius.UI">
+                <Custom:NavigationViewItem x:ConnectionId='7' x:Name="IVRUIItem" Content="Ivirius.UI">
                     <Custom:NavigationViewItem.Icon>
                         <PathIcon Data="F1 M 3.75 16.875 L 3.75 12.5 C 3.75 12.246094 3.701172 12.005209 3.603516 11.777344 C 3.505859 11.549479 3.370768 11.349284 3.198242 11.176758 C 3.025716 11.004232 2.825521 10.869141 2.597656 10.771484 C 2.369792 10.673828 2.128906 10.625 1.875 10.625 C 1.705729 10.625 1.559245 10.563151 1.435547 10.439453 C 1.311849 10.315756 1.25 10.169271 1.25 10 C 1.25 9.830729 1.311849 9.684245 1.435547 9.560547 C 1.559245 9.43685 1.705729 9.375 1.875 9.375 C 2.128906 9.375 2.369792 9.326172 2.597656 9.228516 C 2.825521 9.130859 3.025716 8.995769 3.198242 8.823242 C 3.370768 8.650717 3.505859 8.450521 3.603516 8.222656 C 3.701172 7.994792 3.75 7.753906 3.75 7.5 L 3.75 3.056641 C 3.75 2.646484 3.833008 2.255859 3.999023 1.884766 C 4.165039 1.513672 4.386393 1.189779 4.663086 0.913086 C 4.939778 0.636395 5.263672 0.415039 5.634766 0.249023 C 6.005859 0.083008 6.396484 0 6.806641 0 C 6.995442 0 7.158203 0.053711 7.294922 0.161133 C 7.43164 0.268555 7.5 0.423178 7.5 0.625 C 7.5 0.794271 7.43815 0.940756 7.314453 1.064453 C 7.190755 1.188152 7.044271 1.25 6.875 1.25 C 6.621094 1.25 6.380208 1.298828 6.152344 1.396484 C 5.924479 1.494141 5.724284 1.629232 5.551758 1.801758 C 5.379231 1.974285 5.244141 2.17448 5.146484 2.402344 C 5.048828 2.630209 5 2.871094 5 3.125 L 5 7.5 C 5 7.994792 4.89095 8.461914 4.672852 8.901367 C 4.454752 9.34082 4.147135 9.707031 3.75 10 C 4.147135 10.292969 4.454752 10.65918 4.672852 11.098633 C 4.89095 11.538086 5 12.005209 5 12.5 L 5 16.875 C 5 17.128906 5.048828 17.369791 5.146484 17.597656 C 5.244141 17.825521 5.379231 18.025717 5.551758 18.198242 C 5.724284 18.370768 5.924479 18.505859 6.152344 18.603516 C 6.380208 18.701172 6.621094 18.75 6.875 18.75 C 7.044271 18.75 7.190755 18.81185 7.314453 18.935547 C 7.43815 19.059244 7.5 19.205729 7.5 19.375 C 7.5 19.576822 7.43164 19.731445 7.294922 19.838867 C 7.158203 19.946289 6.995442 20 6.806641 20 C 6.383463 20 5.986328 19.915365 5.615234 19.746094 C 5.244141 19.576822 4.920247 19.348959 4.643555 19.0625 C 4.366862 18.776041 4.148763 18.44401 3.989258 18.066406 C 3.829752 17.688803 3.75 17.291666 3.75 16.875 Z M 12.5 19.375 C 12.5 19.205729 12.561849 19.059244 12.685547 18.935547 C 12.809244 18.81185 12.955729 18.75 13.125 18.75 C 13.378905 18.75 13.619791 18.701172 13.847656 18.603516 C 14.075521 18.505859 14.275716 18.370768 14.448242 18.198242 C 14.620768 18.025717 14.755858 17.825521 14.853516 17.597656 C 14.951171 17.369791 14.999999 17.128906 15 16.875 L 15 12.5 C 14.999999 12.005209 15.109049 11.538086 15.327148 11.098633 C 15.545247 10.65918 15.852864 10.292969 16.25 10 C 15.852864 9.707031 15.545247 9.34082 15.327148 8.901367 C 15.109049 8.461914 14.999999 7.994792 15 7.5 L 15 3.125 C 14.999999 2.871094 14.951171 2.630209 14.853516 2.402344 C 14.755858 2.17448 14.620768 1.974285 14.448242 1.801758 C 14.275716 1.629232 14.075521 1.494141 13.847656 1.396484 C 13.619791 1.298828 13.378905 1.25 13.125 1.25 C 12.955729 1.25 12.809244 1.188152 12.685547 1.064453 C 12.561849 0.940756 12.5 0.794271 12.5 0.625 C 12.5 0.423178 12.568359 0.268555 12.705078 0.161133 C 12.841797 0.053711 13.004557 0 13.193359 0 C 13.616535 0 14.013671 0.084637 14.384766 0.253906 C 14.755858 0.423178 15.079752 0.651043 15.356445 0.9375 C 15.633138 1.223959 15.851236 1.55599 16.010742 1.933594 C 16.170246 2.311199 16.25 2.708334 16.25 3.125 L 16.25 7.5 C 16.25 7.753906 16.298828 7.994792 16.396484 8.222656 C 16.494141 8.450521 16.62923 8.650717 16.801758 8.823242 C 16.974283 8.995769 17.174479 9.130859 17.402344 9.228516 C 17.630207 9.326172 17.871094 9.375 18.125 9.375 C 18.29427 9.375 18.440754 9.43685 18.564453 9.560547 C 18.68815 9.684245 18.75 9.830729 18.75 10 C 18.75 10.169271 18.68815 10.315756 18.564453 10.439453 C 18.440754 10.563151 18.29427 10.625 18.125 10.625 C 17.871094 10.625 17.630207 10.673828 17.402344 10.771484 C 17.174479 10.869141 16.974283 11.004232 16.801758 11.176758 C 16.62923 11.349284 16.494141 11.549479 16.396484 11.777344 C 16.298828 12.005209 16.25 12.246094 16.25 12.5 L 16.25 16.943359 C 16.25 17.353516 16.166992 17.744141 16.000977 18.115234 C 15.834961 18.486328 15.613606 18.810221 15.336914 19.086914 C 15.060221 19.363607 14.736328 19.584961 14.365234 19.750977 C 13.994141 19.916992 13.603516 20 13.193359 20 C 13.004557 20 12.841797 19.946289 12.705078 19.838867 C 12.568359 19.731445 12.5 19.576822 12.5 19.375 Z "/>
                     </Custom:NavigationViewItem.Icon>
                     <Custom:NavigationViewItem.MenuItems>
-                        <Custom:NavigationViewItem x:ConnectionId='49' x:Name="IVRUIWinItem" Content="Ivirius.UI.Windowing">
+                        <Custom:NavigationViewItem x:ConnectionId='10' x:Name="IVRUIWinItem" Content="Ivirius.UI.Windowing">
                             <Custom:NavigationViewItem.Icon>
                                 <PathIcon Data="F1 M 4.306641 18.75 C 3.896484 18.75 3.505859 18.666992 3.134766 18.500977 C 2.763672 18.334961 2.439779 18.113607 2.163086 17.836914 C 1.886393 17.560221 1.665039 17.236328 1.499023 16.865234 C 1.333008 16.494141 1.25 16.103516 1.25 15.693359 L 1.25 4.306641 C 1.25 3.896484 1.333008 3.505859 1.499023 3.134766 C 1.665039 2.763672 1.886393 2.439779 2.163086 2.163086 C 2.439779 1.886395 2.763672 1.665039 3.134766 1.499023 C 3.505859 1.333008 3.896484 1.25 4.306641 1.25 L 15.693359 1.25 C 16.103516 1.25 16.494141 1.333008 16.865234 1.499023 C 17.236328 1.665039 17.560221 1.886395 17.836914 2.163086 C 18.113605 2.439779 18.334961 2.763672 18.500977 3.134766 C 18.666992 3.505859 18.75 3.896484 18.75 4.306641 L 18.75 15.693359 C 18.75 16.103516 18.666992 16.494141 18.500977 16.865234 C 18.334961 17.236328 18.113605 17.560221 17.836914 17.836914 C 17.560221 18.113607 17.236328 18.334961 16.865234 18.500977 C 16.494141 18.666992 16.103516 18.75 15.693359 18.75 Z M 2.5 5 L 17.5 5 L 17.5 4.375 C 17.5 4.121094 17.451172 3.880209 17.353516 3.652344 C 17.255859 3.42448 17.120768 3.224285 16.948242 3.051758 C 16.775715 2.879232 16.57552 2.744141 16.347656 2.646484 C 16.119791 2.548828 15.878906 2.5 15.625 2.5 L 4.375 2.5 C 4.121094 2.5 3.880208 2.548828 3.652344 2.646484 C 3.424479 2.744141 3.224284 2.879232 3.051758 3.051758 C 2.879232 3.224285 2.744141 3.42448 2.646484 3.652344 C 2.548828 3.880209 2.5 4.121094 2.5 4.375 Z M 15.625 17.5 C 15.878906 17.5 16.119791 17.451172 16.347656 17.353516 C 16.57552 17.255859 16.775715 17.120768 16.948242 16.948242 C 17.120768 16.775717 17.255859 16.575521 17.353516 16.347656 C 17.451172 16.119791 17.5 15.878906 17.5 15.625 L 17.5 6.25 L 2.5 6.25 L 2.5 15.625 C 2.5 15.878906 2.548828 16.119791 2.646484 16.347656 C 2.744141 16.575521 2.879232 16.775717 3.051758 16.948242 C 3.224284 17.120768 3.424479 17.255859 3.652344 17.353516 C 3.880208 17.451172 4.121094 17.5 4.375 17.5 Z "/>
                             </Custom:NavigationViewItem.Icon>
                             <Custom:NavigationViewItem.MenuItems>
-                                <Custom:NavigationViewItem x:ConnectionId='53' x:Name="IVRUIWin1Item" Content="ChildAppWindow">
+                                <Custom:NavigationViewItem x:ConnectionId='14' x:Name="IVRUIWin1Item" Content="ChildAppWindow">
                                     <Custom:NavigationViewItem.Icon>
-                                        <Custom:ImageIcon Source="/AcrylicGlassIcon.png"/>
+                                        <Custom:ImageIcon Source="/Assets/Glyphs/ChildAppWindow.png"/>
                                     </Custom:NavigationViewItem.Icon>
                                 </Custom:NavigationViewItem>
-                                <Custom:NavigationViewItem x:ConnectionId='54' x:Name="IVRUIWin2Item" Content="DialogWindow">
+                                <Custom:NavigationViewItem x:ConnectionId='15' x:Name="IVRUIWin2Item" Content="DialogWindow">
                                     <Custom:NavigationViewItem.Icon>
-                                        <Custom:ImageIcon Source="/AcrylicGlassIcon.png"/>
+                                        <Custom:ImageIcon Source="/Assets/Glyphs/DialogWindow.png"/>
                                     </Custom:NavigationViewItem.Icon>
                                 </Custom:NavigationViewItem>
                             </Custom:NavigationViewItem.MenuItems>
                         </Custom:NavigationViewItem>
-                        <Custom:NavigationViewItem x:ConnectionId='50' x:Name="CUIItem" Content="CrimsonUI">
+                        <Custom:NavigationViewItem x:ConnectionId='11' x:Name="CUIItem" Content="CrimsonUI">
                             <Custom:NavigationViewItem.Icon>
                                 <PathIcon Data="F1 M 4.306641 18.75 C 3.896484 18.75 3.505859 18.666992 3.134766 18.500977 C 2.763672 18.334961 2.439779 18.113607 2.163086 17.836914 C 1.886393 17.560221 1.665039 17.236328 1.499023 16.865234 C 1.333008 16.494141 1.25 16.103516 1.25 15.693359 L 1.25 4.306641 C 1.25 3.896484 1.333008 3.505859 1.499023 3.134766 C 1.665039 2.763672 1.886393 2.439779 2.163086 2.163086 C 2.439779 1.886395 2.763672 1.665039 3.134766 1.499023 C 3.505859 1.333008 3.896484 1.25 4.306641 1.25 L 15.693359 1.25 C 16.103516 1.25 16.494141 1.333008 16.865234 1.499023 C 17.236328 1.665039 17.560221 1.886395 17.836914 2.163086 C 18.113605 2.439779 18.334961 2.763672 18.500977 3.134766 C 18.666992 3.505859 18.75 3.896484 18.75 4.306641 L 18.75 15.693359 C 18.75 16.103516 18.666992 16.494141 18.500977 16.865234 C 18.334961 17.236328 18.113605 17.560221 17.836914 17.836914 C 17.560221 18.113607 17.236328 18.334961 16.865234 18.500977 C 16.494141 18.666992 16.103516 18.75 15.693359 18.75 Z M 2.5 5 L 17.5 5 L 17.5 4.375 C 17.5 4.121094 17.451172 3.880209 17.353516 3.652344 C 17.255859 3.42448 17.120768 3.224285 16.948242 3.051758 C 16.775715 2.879232 16.57552 2.744141 16.347656 2.646484 C 16.119791 2.548828 15.878906 2.5 15.625 2.5 L 4.375 2.5 C 4.121094 2.5 3.880208 2.548828 3.652344 2.646484 C 3.424479 2.744141 3.224284 2.879232 3.051758 3.051758 C 2.879232 3.224285 2.744141 3.42448 2.646484 3.652344 C 2.548828 3.880209 2.5 4.121094 2.5 4.375 Z M 15.625 17.5 C 15.878906 17.5 16.119791 17.451172 16.347656 17.353516 C 16.57552 17.255859 16.775715 17.120768 16.948242 16.948242 C 17.120768 16.775717 17.255859 16.575521 17.353516 16.347656 C 17.451172 16.119791 17.5 15.878906 17.5 15.625 L 17.5 6.25 L 2.5 6.25 L 2.5 15.625 C 2.5 15.878906 2.548828 16.119791 2.646484 16.347656 C 2.744141 16.575521 2.879232 16.775717 3.051758 16.948242 C 3.224284 17.120768 3.424479 17.255859 3.652344 17.353516 C 3.880208 17.451172 4.121094 17.5 4.375 17.5 Z "/>
                             </Custom:NavigationViewItem.Icon>
                             <Custom:NavigationViewItem.MenuItems>
-                                <Custom:NavigationViewItem x:ConnectionId='51' x:Name="BtnItem" Content="Button"/>
-                                <Custom:NavigationViewItem x:ConnectionId='52' x:Name="DDBtnItem" Content="DropDownButton"/>
+                                <Custom:NavigationViewItem x:ConnectionId='12' x:Name="BtnItem" Content="Button"/>
+                                <Custom:NavigationViewItem x:ConnectionId='13' x:Name="DDBtnItem" Content="DropDownButton"/>
                             </Custom:NavigationViewItem.MenuItems>
                         </Custom:NavigationViewItem>
                     </Custom:NavigationViewItem.MenuItems>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='47' x:Name="IVRNotesItem" Content="Ivirius Notes (end of support)" Visibility="Collapsed">
+                <Custom:NavigationViewItem x:ConnectionId='8' x:Name="IVRNotesItem" Content="Ivirius Notes (end of support)" Visibility="Collapsed">
                     <Custom:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Home"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='48' x:Name="WindowingItem" Content="Ivirius Windowing Components" Visibility="Collapsed">
+                <Custom:NavigationViewItem x:ConnectionId='9' x:Name="WindowingItem" Content="Ivirius Windowing Components" Visibility="Collapsed">
                     <Custom:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="NewWindow"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
             </Custom:NavigationView.MenuItems>
             <Custom:NavigationView.FooterMenuItems>
-                <Custom:NavigationViewItem x:ConnectionId='55' x:Name="WebItem" Content="Offline website" Visibility="Collapsed">
+                <Custom:NavigationViewItem x:ConnectionId='16' x:Name="WebItem" Content="Offline website" Visibility="Collapsed">
                     <Custom:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Globe"/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='56' x:Name="StoreItem" Content="Store">
+                <Custom:NavigationViewItem x:ConnectionId='17' x:Name="StoreItem" Content="Store">
                     <Custom:NavigationViewItem.Icon>
                         <PathIcon Data="F1 M 6.171875 20 C 5.683594 20 5.216471 19.900717 4.770508 19.702148 C 4.324544 19.50358 3.933919 19.236654 3.598633 18.901367 C 3.263346 18.56608 2.996419 18.175455 2.797852 17.729492 C 2.599284 17.283529 2.5 16.816406 2.5 16.328125 L 2.5 6.25 C 2.5 5.904949 2.620443 5.61198 2.861328 5.371094 C 3.108724 5.123699 3.404948 5.000001 3.75 5 L 5 5 L 5 3.056641 C 5 2.646484 5.083008 2.255859 5.249023 1.884766 C 5.415039 1.513672 5.636393 1.189779 5.913086 0.913086 C 6.189778 0.636395 6.513671 0.415039 6.884766 0.249023 C 7.255859 0.083008 7.646484 0 8.056641 0 C 8.408203 0 8.748372 0.048828 9.077148 0.146484 C 9.405924 0.244141 9.713541 0.403646 10 0.625 C 10.286458 0.403646 10.594075 0.244141 10.922852 0.146484 C 11.251627 0.048828 11.591797 0 11.943359 0 C 12.360025 0 12.752277 0.081381 13.120117 0.244141 C 13.487955 0.406902 13.808594 0.628256 14.082031 0.908203 C 14.355469 1.188152 14.573567 1.513672 14.736328 1.884766 C 14.899088 2.255859 14.986979 2.646484 15 3.056641 C 15.00651 3.167318 15.009766 3.27474 15.009766 3.378906 C 15.009766 3.483074 15.009766 3.590496 15.009766 3.701172 C 15.009766 3.922527 15.008138 4.140626 15.004883 4.355469 C 15.001627 4.570313 14.999999 4.785157 15 5 L 16.25 5 C 16.41927 5.000001 16.578775 5.032553 16.728516 5.097656 C 16.878254 5.162761 17.011719 5.253906 17.128906 5.371094 C 17.246094 5.488281 17.337238 5.621745 17.402344 5.771484 C 17.467447 5.921225 17.5 6.08073 17.5 6.25 L 17.5 16.943359 C 17.5 17.353516 17.416992 17.744141 17.250977 18.115234 C 17.084961 18.486328 16.863605 18.810221 16.586914 19.086914 C 16.310221 19.363607 15.986327 19.584961 15.615234 19.750977 C 15.24414 19.916992 14.853515 20 14.443359 20 Z M 6.25 5 L 10 5 L 10 3.125 C 10 2.871094 9.951172 2.630209 9.853516 2.402344 C 9.755859 2.17448 9.620768 1.974285 9.448242 1.801758 C 9.275716 1.629232 9.075521 1.494141 8.847656 1.396484 C 8.619791 1.298828 8.378906 1.25 8.125 1.25 C 7.871094 1.25 7.630208 1.298828 7.402344 1.396484 C 7.174479 1.494141 6.974283 1.629232 6.801758 1.801758 C 6.629231 1.974285 6.494141 2.17448 6.396484 2.402344 C 6.298828 2.630209 6.25 2.871094 6.25 3.125 Z M 11.25 5 L 13.75 5 L 13.75 3.125 C 13.75 2.871094 13.701172 2.630209 13.603516 2.402344 C 13.505859 2.17448 13.370768 1.974285 13.198242 1.801758 C 13.025716 1.629232 12.825521 1.494141 12.597656 1.396484 C 12.369791 1.298828 12.128906 1.25 11.875 1.25 C 11.686197 1.25 11.503906 1.27767 11.328125 1.333008 C 11.152344 1.388348 10.986328 1.464844 10.830078 1.5625 C 11.110025 2.050781 11.25 2.571615 11.25 3.125 Z M 11.875 18.75 C 11.666666 18.476562 11.510416 18.180338 11.40625 17.861328 C 11.302083 17.542318 11.25 17.213541 11.25 16.875 L 11.25 6.25 L 3.75 6.25 L 3.75 16.298828 C 3.75 16.62435 3.816731 16.935221 3.950195 17.231445 C 4.083659 17.52767 4.262695 17.788086 4.487305 18.012695 C 4.711914 18.237305 4.972331 18.416342 5.268555 18.549805 C 5.564778 18.683268 5.875651 18.75 6.201172 18.75 Z M 16.25 16.875 L 16.25 6.25 L 12.5 6.25 L 12.5 16.875 C 12.5 17.128906 12.548828 17.369791 12.646484 17.597656 C 12.744141 17.825521 12.879231 18.025717 13.051758 18.198242 C 13.224283 18.370768 13.424479 18.505859 13.652344 18.603516 C 13.880208 18.701172 14.121094 18.75 14.375 18.75 C 14.628906 18.75 14.869791 18.701172 15.097656 18.603516 C 15.32552 18.505859 15.525715 18.370768 15.698242 18.198242 C 15.870768 18.025717 16.005859 17.825521 16.103516 17.597656 C 16.201172 17.369791 16.25 17.128906 16.25 16.875 Z "/>
                     </Custom:NavigationViewItem.Icon>
                 </Custom:NavigationViewItem>
-                <Custom:NavigationViewItem x:ConnectionId='57' x:Name="AboutItem" Content="About">
+                <Custom:NavigationViewItem x:ConnectionId='18' x:Name="AboutItem" Content="About">
                     <Custom:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Help"/>
                     </Custom:NavigationViewItem.Icon>
