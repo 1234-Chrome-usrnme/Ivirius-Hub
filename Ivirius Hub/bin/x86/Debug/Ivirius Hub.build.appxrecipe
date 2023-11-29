@@ -453,6 +453,15 @@
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\DropDownButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\HyperlinkButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\HyperlinkButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\RepeatButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\RepeatButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ToggleButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\ToggleButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
       <PackagePath>Pages\Main\MainPage.xbf</PackagePath>
     </AppxPackagedFile>

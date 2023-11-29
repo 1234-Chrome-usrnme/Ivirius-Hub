@@ -57,6 +57,9 @@
                             <Custom:NavigationViewItem.MenuItems>
                                 <Custom:NavigationViewItem x:Name="BtnItem" Content="Button"/>
                                 <Custom:NavigationViewItem x:Name="DDBtnItem" Content="DropDownButton"/>
+                                <Custom:NavigationViewItem x:Name="HBtnItem" Content="HyperlinkButton"/>
+                                <Custom:NavigationViewItem x:Name="RBtnItem" Content="RepeatButton"/>
+                                <Custom:NavigationViewItem x:Name="TBtnItem" Content="ToggleButton"/>
                             </Custom:NavigationViewItem.MenuItems>
                         </Custom:NavigationViewItem>
                     </Custom:NavigationViewItem.MenuItems>

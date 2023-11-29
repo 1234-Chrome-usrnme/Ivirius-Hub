@@ -160,6 +160,15 @@
     <Compile Include="Pages\CrimsonUI\DropDownButtonCUI.xaml.cs">
       <DependentUpon>DropDownButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\HyperlinkButtonCUI.xaml.cs">
+      <DependentUpon>HyperlinkButtonCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrimsonUI\RepeatButtonCUI.xaml.cs">
+      <DependentUpon>RepeatButtonCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrimsonUI\ToggleButtonCUI.xaml.cs">
+      <DependentUpon>ToggleButtonCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Main\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -316,6 +325,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\CrimsonUI\DropDownButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\HyperlinkButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\RepeatButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\ToggleButtonCUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -77,6 +77,9 @@ IVREditor.xbf
 OfflineWebsite.xbf
 Pages\CrimsonUI\ButtonCUI.xbf
 Pages\CrimsonUI\DropDownButtonCUI.xbf
+Pages\CrimsonUI\HyperlinkButtonCUI.xbf
+Pages\CrimsonUI\RepeatButtonCUI.xbf
+Pages\CrimsonUI\ToggleButtonCUI.xbf
 Pages\Ivirius.UI\ChildAppWindowShowcase.xbf
 Pages\Main\MainPage.xbf
 Pages\Main\StorePage.xbf

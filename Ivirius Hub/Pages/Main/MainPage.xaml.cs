@@ -115,6 +115,18 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(DropDownButtonCUI));
             }
+            if (args.SelectedItem == HBtnItem)
+            {
+                frame.Navigate(typeof(HyperlinkButtonCUI));
+            }
+            if (args.SelectedItem == RBtnItem)
+            {
+                frame.Navigate(typeof(RepeatButtonCUI));
+            }
+            if (args.SelectedItem == TBtnItem)
+            {
+                frame.Navigate(typeof(ToggleButtonCUI));
+            }
         }
 
         public void NavigateToStore()

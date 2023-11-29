@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>849FFA45C44466AC67050FB2B0F0E5CD841DD599C4E1A5BC19718F64461F5D65</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3CAE5FB61E175BA5B75699AC4DEED1E680778838387B5BD7E606688172EE79B3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>464IviriusCompany.45256B36D156E_1.1.3.0_x86__34rd76tfyvk3e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>464IviriusCompany.45256B36D156E_34rd76tfyvk3e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>464IviriusCompany.45256B36D156E</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-11-29T21:27:56.003</Modified>
+      <Modified>2023-11-29T23:33:26.796</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius Hub.exe">
       <PackagePath>entrypoint\Ivirius Hub.exe</PackagePath>
-      <Modified>2023-11-29T21:27:55.172</Modified>
+      <Modified>2023-11-29T23:33:25.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Desktop Ivirius\.nuget\packages\microsoft.web.webview2\1.0.1264.42\build\..\runtimes\win-x86\native_uap\Microsoft.Web.WebView2.Core.dll">
       <PackagePath>Microsoft.Web.WebView2.Core.dll</PackagePath>
@@ -534,83 +534,95 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius Hub.xr.xml">
       <PackagePath>Ivirius Hub.xr.xml</PackagePath>
-      <Modified>2023-11-29T21:08:57.983</Modified>
+      <Modified>2023-11-29T23:31:43.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AboutPage.xbf">
       <PackagePath>AboutPage.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\AcrylicGlass.xbf">
       <PackagePath>AcrylicGlass.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.030</Modified>
+      <Modified>2023-11-29T23:33:25.663</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.030</Modified>
+      <Modified>2023-11-29T23:33:25.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf">
       <PackagePath>Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.030</Modified>
+      <Modified>2023-11-29T23:33:25.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf">
       <PackagePath>Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.046</Modified>
+      <Modified>2023-11-29T23:33:25.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf">
       <PackagePath>Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.046</Modified>
+      <Modified>2023-11-29T23:33:25.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusNotes.xbf">
       <PackagePath>IviriusNotes.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.046</Modified>
+      <Modified>2023-11-29T23:33:25.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusTextEditor.xbf">
       <PackagePath>IviriusTextEditor.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.046</Modified>
+      <Modified>2023-11-29T23:33:25.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IviriusTextEditorPlus.xbf">
       <PackagePath>IviriusTextEditorPlus.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.061</Modified>
+      <Modified>2023-11-29T23:33:25.685</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\IVREditor.xbf">
       <PackagePath>IVREditor.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\ButtonCUI.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.064</Modified>
+      <Modified>2023-11-29T23:33:25.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\DropDownButtonCUI.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\HyperlinkButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\HyperlinkButtonCUI.xbf</PackagePath>
+      <Modified>2023-11-29T23:33:25.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\RepeatButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\RepeatButtonCUI.xbf</PackagePath>
+      <Modified>2023-11-29T23:33:25.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ToggleButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\ToggleButtonCUI.xbf</PackagePath>
+      <Modified>2023-11-29T23:33:25.733</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
       <PackagePath>Pages\Main\MainPage.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\OfflineWebsite.xbf">
       <PackagePath>OfflineWebsite.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Ivirius.UI\ChildAppWindowShowcase.xbf">
       <PackagePath>Pages\Ivirius.UI\ChildAppWindowShowcase.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\StorePage.xbf">
       <PackagePath>Pages\Main\StorePage.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Themes\Generic.xbf">
       <PackagePath>Themes\Generic.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\WindowingPage.xbf">
       <PackagePath>WindowingPage.xbf</PackagePath>
-      <Modified>2023-11-29T21:27:55.077</Modified>
+      <Modified>2023-11-29T23:33:25.739</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -626,11 +638,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-11-29T20:36:07.253</Modified>
+      <Modified>2023-11-29T22:41:21.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Core\Ivirius Hub.exe">
       <PackagePath>Ivirius Hub.exe</PackagePath>
-      <Modified>2023-11-29T21:27:56.003</Modified>
+      <Modified>2023-11-29T23:33:26.794</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -5,8 +5,8 @@
     xmlns:local="using:Ivirius_Hub.Pages.CrimsonUI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls">
     <Page.Resources>
         <Style x:Key="CrimsonButton" TargetType="Button">
             <Setter Property="HorizontalAlignment" Value="Left" />

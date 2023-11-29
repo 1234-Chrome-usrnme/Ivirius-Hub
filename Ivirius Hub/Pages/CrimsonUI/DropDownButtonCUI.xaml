@@ -8,165 +8,6 @@
     mc:Ignorable="d"
     xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls">
     <Page.Resources>
-        <Style x:Key="CrimsonToolbarButton" TargetType="Button">
-            <Setter Property="Foreground" Value="{ThemeResource SplitButtonForeground}" />
-            <Setter Property="BorderBrush" Value="Transparent" />
-            <Setter Property="BorderThickness" Value="{ThemeResource SplitButtonBorderThemeThickness}" />
-            <Setter Property="HorizontalAlignment" Value="Left" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}" />
-            <Setter Property="FontWeight" Value="Normal" />
-            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}" />
-            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}" />
-            <Setter Property="FocusVisualMargin" Value="-3" />
-            <Setter Property="CornerRadius" Value="4"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Grid x:Name="RootGrid" Background="Transparent">
-
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Normal">
-                                        <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="0"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorSecondaryBrush}" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="12"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Pressed">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorTertiaryBrush}" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="0"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Disabled">
-                                        <VisualState.Setters>
-                                            <Setter Target="ContentPresenter.Foreground" Value="{ThemeResource SplitButtonForegroundDisabled}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-
-                            <ContentPresenter x:Name="ContentPresenter"
-                                                    BorderBrush="{TemplateBinding BorderBrush}"
-                                                    BorderThickness="{TemplateBinding BorderThickness}"
-                                                    Content="{TemplateBinding Content}"
-                                                    ContentTransitions="{TemplateBinding ContentTransitions}"
-                                                    ContentTemplate="{TemplateBinding ContentTemplate}"
-                                                    Padding="{TemplateBinding Padding}"
-                                                    CornerRadius="4"
-                                                    HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                                    VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
-                                                    AutomationProperties.AccessibilityView="Raw"/>
-                            <ToolkitControls:DropShadowPanel CornerRadius="2" Margin="2,0,2,2" x:Name="Glow" Color="{ThemeResource SystemAccentColorLight2}" ShadowOpacity="0.93" Grid.Row="0" VerticalAlignment="Bottom"
-                HorizontalAlignment="Center">
-                                <Grid x:Name="Pipe"
-                Height="2" Width="0.1" CornerRadius="2"
-                VerticalAlignment="Bottom" 
-                HorizontalAlignment="Center">
-                                    <Grid.Background>
-                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="0.0" />
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight2}" Offset="0.5" />
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="1.0" />
-                                        </LinearGradientBrush>
-                                    </Grid.Background>
-                                </Grid>
-                            </ToolkitControls:DropShadowPanel>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-        <Style x:Key="CrimsonToolbarHighlightButton" TargetType="Button">
-            <Setter Property="Foreground" Value="{ThemeResource SplitButtonForeground}" />
-            <Setter Property="BorderBrush" Value="Transparent" />
-            <Setter Property="BorderThickness" Value="{ThemeResource SplitButtonBorderThemeThickness}" />
-            <Setter Property="HorizontalAlignment" Value="Left" />
-            <Setter Property="VerticalAlignment" Value="Center" />
-            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}" />
-            <Setter Property="FontWeight" Value="Normal" />
-            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}" />
-            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}" />
-            <Setter Property="FocusVisualMargin" Value="-3" />
-            <Setter Property="CornerRadius" Value="4"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Grid x:Name="RootGrid" Background="Transparent">
-
-                            <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Normal">
-                                        <Storyboard>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="10"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="PointerOver">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorSecondaryBrush}" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="16"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Pressed">
-                                        <Storyboard>
-                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ControlFillColorTertiaryBrush}" />
-                                            </ObjectAnimationUsingKeyFrames>
-                                            <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Width" EnableDependentAnimation="True" Duration="0:0:0.12" To="10"/>
-                                        </Storyboard>
-                                    </VisualState>
-                                    <VisualState x:Name="Disabled">
-                                        <VisualState.Setters>
-                                            <Setter Target="ContentPresenter.Foreground" Value="{ThemeResource SplitButtonForegroundDisabled}"/>
-                                        </VisualState.Setters>
-                                    </VisualState>
-                                </VisualStateGroup>
-                            </VisualStateManager.VisualStateGroups>
-
-                            <ContentPresenter x:Name="ContentPresenter"
-                                                    BorderBrush="{TemplateBinding BorderBrush}"
-                                                    BorderThickness="{TemplateBinding BorderThickness}"
-                                                    Content="{TemplateBinding Content}"
-                                                    ContentTransitions="{TemplateBinding ContentTransitions}"
-                                                    ContentTemplate="{TemplateBinding ContentTemplate}"
-                                                    Padding="{TemplateBinding Padding}"
-                                                    CornerRadius="4"
-                                                    HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                                    VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
-                                                    AutomationProperties.AccessibilityView="Raw"/>
-                            <ToolkitControls:DropShadowPanel CornerRadius="2" Margin="2,0,2,2" x:Name="Glow" Color="{ThemeResource SystemAccentColorLight2}" ShadowOpacity="0.93" Grid.Row="0" VerticalAlignment="Bottom"
-                HorizontalAlignment="Center">
-                                <Grid x:Name="Pipe"
-                Height="2" Width="0.1" CornerRadius="2"
-                VerticalAlignment="Bottom" 
-                HorizontalAlignment="Center">
-                                    <Grid.Background>
-                                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="0.0" />
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight2}" Offset="0.5" />
-                                            <GradientStop Color="{ThemeResource SystemAccentColorLight3}" Offset="1.0" />
-                                        </LinearGradientBrush>
-                                    </Grid.Background>
-                                </Grid>
-                            </ToolkitControls:DropShadowPanel>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
         <Style x:Key="CrimsonDropDownButton" TargetType="DropDownButton">
             <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
             <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
@@ -397,10 +238,45 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        
+        <Style x:Key="CrimsonMenuFlyout" TargetType="MenuFlyoutPresenter">
+            <Setter Property="Background" Value="{ThemeResource MenuFlyoutPresenterBackground}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource MenuFlyoutPresenterBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource MenuFlyoutPresenterBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="{ThemeResource MenuFlyoutPresenterThemePadding}"/>
+            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
+            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Auto"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="ScrollViewer.IsHorizontalRailEnabled" Value="False"/>
+            <Setter Property="ScrollViewer.IsVerticalRailEnabled" Value="False"/>
+            <Setter Property="ScrollViewer.ZoomMode" Value="Disabled"/>
+            <Setter Property="MaxWidth" Value="{ThemeResource FlyoutThemeMaxWidth}"/>
+            <Setter Property="MinHeight" Value="{ThemeResource MenuFlyoutThemeMinHeight}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="MenuFlyoutPresenter">
+                        <Grid>
+                        <ToolkitControls:DropShadowPanel CornerRadius="8" x:Name="Glow" Color="{ThemeResource SystemAccentColorLight2}" ShadowOpacity="0.9" Grid.Row="0" VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" BlurRadius="10" OffsetX="5" OffsetY="5">
+                                <Grid Background="{ThemeResource SolidBackgroundFillColorBaseBrush}" CornerRadius="{TemplateBinding CornerRadius}" Margin="5, 5, 5, 5">
+                            </Grid>
+                        </ToolkitControls:DropShadowPanel>
+                            <Border Background="{ThemeResource SolidBackgroundFillColorBaseBrush}" CornerRadius="8, 8, 8, 8" Margin="5, 5, 5, 5"/>
+                            <ScrollViewer Margin="5, 5, 5, 5" x:Name="MenuFlyoutPresenterScrollViewer" AutomationProperties.AccessibilityView="Raw" HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" MinWidth="{Binding TemplateSettings.FlyoutContentMinWidth, RelativeSource={RelativeSource Mode=TemplatedParent}}" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" ZoomMode="{TemplateBinding ScrollViewer.ZoomMode}">
+                                <ItemsPresenter Margin="{ThemeResource MenuFlyoutScrollerMargin}"/>
+                            </ScrollViewer>
+                            <Border Margin="5, 5, 5, 5" x:Name="MenuFlyoutPresenterBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="8, 8, 8, 8"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        
     </Page.Resources>
     <Grid>
-        <TextBlock TextWrapping="Wrap" Text="Button" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="The Button control provides a Click event to respond to user input from a touch, mouse, keyboard, stylus, or other input device."/>
+        <TextBlock TextWrapping="Wrap" Text="DropDownButton" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="A control that drops down a flyout of choices from which one can be chosen."/>
 
         <StackPanel Margin="25,115,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Spacing="5" Orientation="Horizontal">
             <Button Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click">
