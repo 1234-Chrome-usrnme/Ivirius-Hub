@@ -157,6 +157,9 @@
     <Compile Include="Pages\CrimsonUI\ButtonCUI.xaml.cs">
       <DependentUpon>ButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\DropDownButtonCUI.xaml.cs">
+      <DependentUpon>DropDownButtonCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Main\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -280,6 +283,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Ivirius.UI\CrimsonUI\CrimsonUIStyles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -305,6 +312,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\CrimsonUI\ButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\DropDownButtonCUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

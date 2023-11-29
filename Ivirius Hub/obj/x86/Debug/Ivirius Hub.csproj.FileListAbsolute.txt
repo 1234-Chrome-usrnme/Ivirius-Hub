@@ -344,3 +344,11 @@ D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\ob
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.g.cs
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.xaml
 D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\Main\StorePage.xbf
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.g.i.cs
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.g.cs
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Ivirius.UI\CrimsonUI\CrimsonUIStyles.xaml
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xaml
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf
+D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\obj\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf

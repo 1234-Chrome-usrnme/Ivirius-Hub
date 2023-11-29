@@ -111,6 +111,10 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(StorePage));
             }
+            if (args.SelectedItem == DDBtnItem)
+            {
+                frame.Navigate(typeof(DropDownButtonCUI));
+            }
         }
 
         public void NavigateToStore()

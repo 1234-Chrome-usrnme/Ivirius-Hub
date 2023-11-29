@@ -67,6 +67,7 @@ AcrylicGlass.xbf
 App.xbf
 HomePage.xbf
 Ivirius Hub.xr.xml
+Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf
 Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf
 Ivirius.UI\Ivirius.UI.Windowing\DialogWindow.xbf
 IviriusNotes.xbf
@@ -75,6 +76,7 @@ IviriusTextEditorPlus.xbf
 IVREditor.xbf
 OfflineWebsite.xbf
 Pages\CrimsonUI\ButtonCUI.xbf
+Pages\CrimsonUI\DropDownButtonCUI.xbf
 Pages\Ivirius.UI\ChildAppWindowShowcase.xbf
 Pages\Main\MainPage.xbf
 Pages\Main\StorePage.xbf

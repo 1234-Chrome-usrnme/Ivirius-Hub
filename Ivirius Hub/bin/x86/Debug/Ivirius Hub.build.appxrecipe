@@ -426,6 +426,9 @@
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf">
+      <PackagePath>Ivirius.UI\CrimsonUI\CrimsonUIStyles.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf">
       <PackagePath>Ivirius.UI\Ivirius.UI.Windowing\ChildAppWindow.xbf</PackagePath>
     </AppxPackagedFile>
@@ -446,6 +449,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\ButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\DropDownButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
       <PackagePath>Pages\Main\MainPage.xbf</PackagePath>
