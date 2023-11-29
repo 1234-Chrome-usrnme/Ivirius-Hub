@@ -188,7 +188,7 @@
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="17.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Blend for Visual Studio Community 2022" />
     <build:Item Name="OperatingSystem" Version="10.0.22621.1 (WinBuild.160101.0800)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.8.37222.56888" />
     <build:Item Name="ProjectGUID" Value="{746B3457-A9AB-45C8-B8AB-106A4EC448FC}" />

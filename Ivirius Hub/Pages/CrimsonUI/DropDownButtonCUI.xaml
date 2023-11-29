@@ -167,8 +167,6 @@
             </Setter>
         </Style>
         
-        
-        
         <Style x:Key="CrimsonDropDownButton" TargetType="DropDownButton">
             <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
             <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
@@ -197,7 +195,11 @@
                                             <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="BlurRadius" EnableDependentAnimation="True" Duration="0:0:0" To="0"/>
                                             <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" EnableDependentAnimation="True" Duration="0:0:0" To="0"/>
                                             <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Opacity" EnableDependentAnimation="True" Duration="0:0:0.30" To="0"/>
-                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.12" To="0"/>
+                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.15" To="0">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
                                         </Storyboard>
                                     </VisualState>
                                     <VisualState x:Name="PointerOver">
@@ -217,7 +219,11 @@
                                             <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="BlurRadius" EnableDependentAnimation="True" Duration="0:0:0.35" To="10"/>
                                             <DoubleAnimation Storyboard.TargetName="Glow" Storyboard.TargetProperty="Opacity" EnableDependentAnimation="True" Duration="0:0:0.35" To="1"/>
                                             <DoubleAnimation Storyboard.TargetName="Pipe" Storyboard.TargetProperty="Opacity" EnableDependentAnimation="True" Duration="0:0:0.20" To="1"/>
-                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.12" To="0"/>
+                                            <DoubleAnimation Storyboard.TargetName="ChevronTransform" Storyboard.TargetProperty="TranslateY" EnableDependentAnimation="True" Duration="0:0:0.15" To="0">
+                                                <DoubleAnimation.EasingFunction>
+                                                    <BackEase EasingMode="EaseOut"/>
+                                                </DoubleAnimation.EasingFunction>
+                                            </DoubleAnimation>
                                         </Storyboard>
                                     </VisualState>
                                     <VisualState x:Name="Pressed">
