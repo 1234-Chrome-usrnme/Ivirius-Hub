@@ -148,6 +148,9 @@
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Glyphs\ChildAppWindow.png">
       <PackagePath>Assets\Glyphs\ChildAppWindow.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Glyphs\CrimsonUIGlyph.png">
+      <PackagePath>Assets\Glyphs\CrimsonUIGlyph.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Glyphs\DialogWindow.png">
       <PackagePath>Assets\Glyphs\DialogWindow.png</PackagePath>
     </AppxPackagedFile>
@@ -170,6 +173,9 @@
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Profile pictures\Ivirius.png">
+      <PackagePath>Assets\Profile pictures\Ivirius.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
@@ -315,6 +321,9 @@
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wallpapers\CrimsonUIWallpaper.png">
+      <PackagePath>Assets\Wallpapers\CrimsonUIWallpaper.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -450,17 +459,38 @@
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\ButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\CheckBoxCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\CheckBoxCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ComboBoxCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\ComboBoxCUI.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\DropDownButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\DropDownButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\HyperlinkButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\HyperlinkButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\RadioButtonCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\RadioButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\RepeatButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\RepeatButtonCUI.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\SliderCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\SliderCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\TextBoxCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\TextBoxCUI.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ToggleButtonCUI.xbf">
       <PackagePath>Pages\CrimsonUI\ToggleButtonCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\CrimsonUI\ToggleSwitchCUI.xbf">
+      <PackagePath>Pages\CrimsonUI\ToggleSwitchCUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\CrimsonUIPage.xbf">
+      <PackagePath>Pages\Main\CrimsonUIPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Ivirius Company\Programări\Visual Studio\Apps\Ivirius-Hub-Git\Ivirius Hub\bin\x86\Debug\Pages\Main\MainPage.xbf">
       <PackagePath>Pages\Main\MainPage.xbf</PackagePath>

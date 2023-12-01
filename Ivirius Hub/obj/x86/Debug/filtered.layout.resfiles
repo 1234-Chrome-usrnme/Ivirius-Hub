@@ -9,6 +9,7 @@ AeroCorner.png
 AeroGlass.png
 AppMainIcon.png
 Assets\Glyphs\ChildAppWindow.png
+Assets\Glyphs\CrimsonUIGlyph.png
 Assets\Glyphs\DialogWindow.png
 Assets\LargeTile.scale-100.png
 Assets\LargeTile.scale-125.png
@@ -16,6 +17,7 @@ Assets\LargeTile.scale-150.png
 Assets\LargeTile.scale-200.png
 Assets\LargeTile.scale-400.png
 Assets\LockScreenLogo.scale-200.png
+Assets\Profile pictures\Ivirius.png
 Assets\SmallTile.scale-100.png
 Assets\SmallTile.scale-125.png
 Assets\SmallTile.scale-150.png
@@ -56,6 +58,7 @@ Assets\StoreLogo.scale-125.png
 Assets\StoreLogo.scale-150.png
 Assets\StoreLogo.scale-200.png
 Assets\StoreLogo.scale-400.png
+Assets\Wallpapers\CrimsonUIWallpaper.png
 Assets\Wide310x150Logo.scale-100.png
 Assets\Wide310x150Logo.scale-125.png
 Assets\Wide310x150Logo.scale-150.png
@@ -76,11 +79,18 @@ IviriusTextEditorPlus.xbf
 IVREditor.xbf
 OfflineWebsite.xbf
 Pages\CrimsonUI\ButtonCUI.xbf
+Pages\CrimsonUI\CheckBoxCUI.xbf
+Pages\CrimsonUI\ComboBoxCUI.xbf
 Pages\CrimsonUI\DropDownButtonCUI.xbf
 Pages\CrimsonUI\HyperlinkButtonCUI.xbf
+Pages\CrimsonUI\RadioButtonCUI.xbf
 Pages\CrimsonUI\RepeatButtonCUI.xbf
+Pages\CrimsonUI\SliderCUI.xbf
+Pages\CrimsonUI\TextBoxCUI.xbf
 Pages\CrimsonUI\ToggleButtonCUI.xbf
+Pages\CrimsonUI\ToggleSwitchCUI.xbf
 Pages\Ivirius.UI\ChildAppWindowShowcase.xbf
+Pages\Main\CrimsonUIPage.xbf
 Pages\Main\MainPage.xbf
 Pages\Main\StorePage.xbf
 Themes\Generic.xbf

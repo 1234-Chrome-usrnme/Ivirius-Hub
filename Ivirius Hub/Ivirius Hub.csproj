@@ -157,17 +157,38 @@
     <Compile Include="Pages\CrimsonUI\ButtonCUI.xaml.cs">
       <DependentUpon>ButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\CheckBoxCUI.xaml.cs">
+      <DependentUpon>CheckBoxCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrimsonUI\ComboBoxCUI.xaml.cs">
+      <DependentUpon>ComboBoxCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CrimsonUI\DropDownButtonCUI.xaml.cs">
       <DependentUpon>DropDownButtonCUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\CrimsonUI\HyperlinkButtonCUI.xaml.cs">
       <DependentUpon>HyperlinkButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\RadioButtonCUI.xaml.cs">
+      <DependentUpon>RadioButtonCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CrimsonUI\RepeatButtonCUI.xaml.cs">
       <DependentUpon>RepeatButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\SliderCUI.xaml.cs">
+      <DependentUpon>SliderCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrimsonUI\TextBoxCUI.xaml.cs">
+      <DependentUpon>TextBoxCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CrimsonUI\ToggleButtonCUI.xaml.cs">
       <DependentUpon>ToggleButtonCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CrimsonUI\ToggleSwitchCUI.xaml.cs">
+      <DependentUpon>ToggleSwitchCUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Main\CrimsonUIPage.xaml.cs">
+      <DependentUpon>CrimsonUIPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Main\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -202,12 +223,14 @@
     <Content Include="AeroGlass.png" />
     <Content Include="AppMainIcon.png" />
     <Content Include="Assets\Glyphs\ChildAppWindow.png" />
+    <Content Include="Assets\Glyphs\CrimsonUIGlyph.png" />
     <Content Include="Assets\Glyphs\DialogWindow.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\Profile pictures\Ivirius.png" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-125.png" />
     <Content Include="Assets\SmallTile.scale-150.png" />
@@ -244,6 +267,7 @@
     <Content Include="Assets\StoreLogo.scale-150.png" />
     <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wallpapers\CrimsonUIWallpaper.png" />
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-125.png" />
     <Content Include="Assets\Wide310x150Logo.scale-150.png" />
@@ -324,6 +348,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\CrimsonUI\CheckBoxCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\ComboBoxCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\CrimsonUI\DropDownButtonCUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -332,11 +364,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\CrimsonUI\RadioButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\CrimsonUI\RepeatButtonCUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\CrimsonUI\SliderCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\TextBoxCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\CrimsonUI\ToggleButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\ToggleSwitchCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Main\CrimsonUIPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

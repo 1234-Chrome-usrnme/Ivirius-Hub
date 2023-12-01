@@ -127,6 +127,34 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(ToggleButtonCUI));
             }
+            if (args.SelectedItem == CUIItem)
+            {
+                frame.Navigate(typeof(CrimsonUIPage));
+            }
+            if (args.SelectedItem == CheckBoxItem)
+            {
+                frame.Navigate(typeof(CheckBoxCUI));
+            }
+            if (args.SelectedItem == ComboBoxItem)
+            {
+                frame.Navigate(typeof(ComboBoxCUI));
+            }
+            if (args.SelectedItem == RadioBtnItem)
+            {
+                frame.Navigate(typeof(RadioButtonCUI));
+            }
+            if (args.SelectedItem == SliderItem)
+            {
+                frame.Navigate(typeof(SliderCUI));
+            }
+            if (args.SelectedItem == ToggleSwitchItem)
+            {
+                frame.Navigate(typeof(ToggleSwitchCUI));
+            }
+            if (args.SelectedItem == TextBoxItem)
+            {
+                frame.Navigate(typeof(TextBoxCUI));
+            }
         }
 
         public void NavigateToStore()
