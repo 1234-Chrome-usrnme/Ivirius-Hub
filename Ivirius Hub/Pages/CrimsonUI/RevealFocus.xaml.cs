@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -29,6 +30,14 @@ namespace Ivirius_Hub.Pages.CrimsonUI
             var x = new ThemeListener();
             if (x.CurrentTheme == ApplicationTheme.Light) ItemsViewer.RequestedTheme = ElementTheme.Light;
             else ItemsViewer.RequestedTheme = ElementTheme.Dark;
+            if (Application.Current.FocusVisualKind == FocusVisualKind.HighVisibility)
+            {
+                HighVisibilityrb.IsChecked = true;
+            }
+            else
+            {
+                RevealFocusrb.IsChecked = true;
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -40,6 +49,16 @@ namespace Ivirius_Hub.Pages.CrimsonUI
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             ((Window.Current.Content as Frame).Content as MainPage).NavigateToStore();
+        }
+
+        private void HighVisibility_Checked(object sender, RoutedEventArgs e)
+        {
+            Application.Current.FocusVisualKind = FocusVisualKind.HighVisibility;
+        }
+
+        private void RevealFocus_Checked(object sender, RoutedEventArgs e)
+        {
+                Application.Current.FocusVisualKind = FocusVisualKind.Reveal;
         }
     }
 }

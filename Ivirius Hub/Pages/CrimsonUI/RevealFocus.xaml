@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls">
+    xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls" xmlns:controls="using:Microsoft.UI.Xaml.Controls">
     <Grid>
         <TextBlock TextWrapping="Wrap" Text="Reveal Focus" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
         <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Reveal Focus is a type of Focus Rectangle that adds glow to selected app elements. This focus rectangle was made by Microsoft to be used for Xbox (and they even recommend to only use it for Xbox!), but it is usable on every other device class as well. Reveal Focus is recommended for use alongside CrimsonUI as it adds to the Glow aesthetic of the UI library."/>
@@ -19,6 +19,24 @@
             <HyperlinkButton Content="Source code" Click="HyperlinkButton_Click"/>
         </StackPanel>
         <ScrollViewer x:Name="ItemsViewer" Margin="15,175,15,15">
+            <StackPanel Spacing="10" Padding="10,10,10,10" CornerRadius="4,4,4,4" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
+                <TextBlock Text="Try out focus rectangles on these buttons! (Focus rectangles are activated when navigating through an app's elements using the Tab key or arrow keys)"/>
+                <RelativePanel Padding="10,10,10,10">
+                    <Button RelativePanel.AlignLeftWithPanel="True" x:Name="bleft"/>
+                    <Button RelativePanel.AlignLeftWith="bleft"/>
+                    <Button RelativePanel.AlignRightWith="bcenter"/>
+                    <Button RelativePanel.AlignHorizontalCenterWithPanel="True" x:Name="bcenter"/>
+                    <Button RelativePanel.AlignLeftWith="bcenter"/>
+                    <Button RelativePanel.AlignRightWith="bright"/>
+                    <Button RelativePanel.AlignRightWithPanel="True" x:Name="bright"/>
+                </RelativePanel>
+                <TextBlock Text="Change focus rectangles"/>
+                <controls:InfoBar Severity="Warning" Title="Focus Rectangle changing" Content="Changing the focus rectangles here will also change them for the entire app!"/>
+                <controls:RadioButtons Header="FocusVisualKind:" FontWeight="SemiBold">
+                    <RadioButton x:Name="HighVisibilityrb" Content="High Visibility" Checked="HighVisibility_Checked"/>
+                    <RadioButton x:Name="RevealFocusrb" Content="Reveal Focus"  Checked="RevealFocus_Checked"/>
+                </controls:RadioButtons>
+            </StackPanel>
         </ScrollViewer>
 
     </Grid>
