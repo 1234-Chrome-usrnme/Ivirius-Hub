@@ -51,6 +51,7 @@
                                 <Custom:NavigationViewItem x:Name="DDBtnItem" Content="DropDownButton"/>
                                 <Custom:NavigationViewItem x:Name="HBtnItem" Content="HyperlinkButton"/>
                                 <Custom:NavigationViewItem x:Name="RBtnItem" Content="RepeatButton"/>
+                                <Custom:NavigationViewItem x:Name="RevealFocusItem" Content="Reveal Focus"/>
                                 <Custom:NavigationViewItem x:Name="TBtnItem" Content="ToggleButton"/>
                                 <Custom:NavigationViewItem x:Name="CheckBoxItem" Content="CheckBox"/>
                                 <Custom:NavigationViewItem x:Name="ComboBoxItem" Content="ComboBox"/>

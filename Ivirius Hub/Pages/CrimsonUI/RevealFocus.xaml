@@ -8,8 +8,8 @@
     mc:Ignorable="d"
     xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls">
     <Grid>
-        <TextBlock TextWrapping="Wrap" Text="Button" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="The Button control provides a Click event to respond to user input from a touch, mouse, keyboard, stylus, or other input device."/>
+        <TextBlock TextWrapping="Wrap" Text="Reveal Focus" Margin="25,25,0,0" Style="{ThemeResource TitleTextBlockStyle}" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock TextWrapping="Wrap" Margin="25,75,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Text="Reveal Focus is a type of Focus Rectangle that adds glow to selected app elements. This focus rectangle was made by Microsoft to be used for Xbox (and they even recommend to only use it for Xbox!), but it is usable on every other device class as well. Reveal Focus is recommended for use alongside CrimsonUI as it adds to the Glow aesthetic of the UI library."/>
 
         <StackPanel Margin="25,115,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Spacing="5" Orientation="Horizontal">
             <Button Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click">

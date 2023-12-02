@@ -123,6 +123,10 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(RepeatButtonCUI));
             }
+            if (args.SelectedItem == RevealFocusItem)
+            {
+                frame.Navigate(typeof(RevealFocus));
+            }
             if (args.SelectedItem == TBtnItem)
             {
                 frame.Navigate(typeof(ToggleButtonCUI));
