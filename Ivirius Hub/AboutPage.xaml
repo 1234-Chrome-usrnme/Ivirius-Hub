@@ -5,6 +5,8 @@
     xmlns:local="using:Ivirius_Hub"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:Microsoft.UI.Xaml.Controls"
+xmlns:ToolkitControls="using:Microsoft.Toolkit.Uwp.UI.Controls"
     mc:Ignorable="d">
     <Page.Resources>
         <Style x:Key="CrimsonHyperlinkButton" TargetType="HyperlinkButton">
@@ -260,7 +262,7 @@
             <TextBlock TextWrapping="Wrap" Text="Version 2.0.0.0" FontSize="14"/>
             <TextBlock TextWrapping="Wrap" Text="© 2023 Ivirius, jpbandroid/ErrorTek and other contributors" FontSize="14"/>
             <TextBlock TextWrapping="Wrap" Text="Licensed under the MIT License" FontSize="14"/>
-            <HyperlinkButton Style="{StaticResource CrimsonHyperlinkButton}" Content="GitHub" Width="250" NavigateUri="https://github.com/Ivirius-Main/Ivirius-Hub"/>
+            <HyperlinkButton Style="{StaticResource CrimsonHyperlinkButton}" Content="GitHub" NavigateUri="https://github.com/Ivirius-Main/Ivirius-Hub"/>
         </StackPanel>
     </Grid>
 </Page>
