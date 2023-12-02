@@ -175,6 +175,9 @@
     <Compile Include="Pages\CrimsonUI\RepeatButtonCUI.xaml.cs">
       <DependentUpon>RepeatButtonCUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\RevealFocus.xaml.cs">
+      <DependentUpon>RevealFocus.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CrimsonUI\SliderCUI.xaml.cs">
       <DependentUpon>SliderCUI.xaml</DependentUpon>
     </Compile>
@@ -369,6 +372,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\CrimsonUI\RepeatButtonCUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\RevealFocus.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
