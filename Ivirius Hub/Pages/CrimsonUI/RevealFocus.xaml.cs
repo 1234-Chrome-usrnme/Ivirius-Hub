@@ -1,4 +1,5 @@
 ﻿using Microsoft.Toolkit.Uwp.UI.Helpers;
+using Microsoft.UI.Xaml.Controls;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -38,6 +39,28 @@ namespace Ivirius_Hub.Pages.CrimsonUI
             {
                 RevealFocusrb.IsChecked = true;
             }
+            xaml.Text = @"<controls:RadioButtons Header=""FocusVisualKind:"" FontWeight=""SemiBold"">
+                    <RadioButton x:Name = ""HighVisibilityrb"" Content = ""High Visibility"" Checked = ""HighVisibility_Checked"" />
+                    <RadioButton x:Name = ""RevealFocusrb"" Content = ""Reveal Focus""  Checked = ""RevealFocus_Checked"" />
+                </ controls:RadioButtons >";
+            CSharp.Text = @"if (Application.Current.FocusVisualKind == FocusVisualKind.HighVisibility)
+            {
+                HighVisibilityrb.IsChecked = true;
+            }
+            else
+            {
+                RevealFocusrb.IsChecked = true;
+            }
+
+private void HighVisibility_Checked(object sender, RoutedEventArgs e)
+        {
+            Application.Current.FocusVisualKind = FocusVisualKind.HighVisibility;
+        }
+
+        private void RevealFocus_Checked(object sender, RoutedEventArgs e)
+        {
+                Application.Current.FocusVisualKind = FocusVisualKind.Reveal;
+        }";
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

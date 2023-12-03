@@ -36,8 +36,19 @@
                     <RadioButton x:Name="HighVisibilityrb" Content="High Visibility" Checked="HighVisibility_Checked"/>
                     <RadioButton x:Name="RevealFocusrb" Content="Reveal Focus"  Checked="RevealFocus_Checked"/>
                 </controls:RadioButtons>
-            </StackPanel>
-        </ScrollViewer>
 
+                <TextBlock Text="Code examples:" FontWeight="SemiBold"/>
+                <controls:Expander Header="Code example:">
+                    <StackPanel>
+                        <TextBlock Text="XAML"/>
+                        <TextBlock x:Name="xaml" IsTextSelectionEnabled="True"></TextBlock>
+                        <TextBlock Text="C#"/>
+                        <TextBlock x:Name="CSharp" IsTextSelectionEnabled="True"/>
+                    </StackPanel>
+                </controls:Expander>
+            </StackPanel>
+
+        </ScrollViewer>
+        
     </Grid>
 </Page>
