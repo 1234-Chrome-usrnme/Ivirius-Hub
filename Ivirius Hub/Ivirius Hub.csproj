@@ -178,6 +178,9 @@
     <Compile Include="Pages\CrimsonUI\RevealFocus.xaml.cs">
       <DependentUpon>RevealFocus.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\CrimsonUI\RichEditBoxCUI.xaml.cs">
+      <DependentUpon>RichEditBoxCUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CrimsonUI\SliderCUI.xaml.cs">
       <DependentUpon>SliderCUI.xaml</DependentUpon>
     </Compile>
@@ -376,6 +379,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\CrimsonUI\RevealFocus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CrimsonUI\RichEditBoxCUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

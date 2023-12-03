@@ -127,6 +127,10 @@ namespace Ivirius_Hub
             {
                 frame.Navigate(typeof(RevealFocus));
             }
+            if (args.SelectedItem == REBItem)
+            {
+                frame.Navigate(typeof(RichEditBoxCUI));
+            }
             if (args.SelectedItem == TBtnItem)
             {
                 frame.Navigate(typeof(ToggleButtonCUI));
