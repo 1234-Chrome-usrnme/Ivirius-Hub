@@ -31,7 +31,7 @@
                     <Button RelativePanel.AlignRightWithPanel="True" x:Name="bright"/>
                 </RelativePanel>
                 <TextBlock Text="Change focus rectangles"/>
-                <controls:InfoBar Severity="Warning" IsOpen="True" Title="Focus Rectangle changing" Content="Changing the focus rectangles here will also change them for the entire app!"/>
+                <controls:InfoBar Severity="Warning" IsOpen="True" Title="Focus Rectangle changing" Content="Changing the focus rectangles here will affect the focus method in the entire app!"/>
                 <controls:RadioButtons Header="FocusVisualKind:" FontWeight="SemiBold">
                     <RadioButton x:Name="HighVisibilityrb" Content="High Visibility" Checked="HighVisibility_Checked"/>
                     <RadioButton x:Name="RevealFocusrb" Content="Reveal Focus"  Checked="RevealFocus_Checked"/>
@@ -40,8 +40,7 @@
                 <TextBlock Text="Code examples:" FontWeight="SemiBold"/>
                 <controls:Expander Header="Code example:">
                     <StackPanel>
-                        <TextBlock Text="XAML"/>
-                        <TextBlock x:Name="xaml" IsTextSelectionEnabled="True"></TextBlock>
+                        <TextBlock Text="This method only requires C# code"/>
                         <TextBlock Text="C#"/>
                         <TextBlock x:Name="CSharp" IsTextSelectionEnabled="True"/>
                     </StackPanel>
