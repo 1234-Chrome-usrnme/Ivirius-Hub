@@ -1,3 +1,4 @@
 # Ivirius Hub
 
-*this will be updated and improved over time*
+Obsolete 
+Do not delete or fork this repository 
